@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import { Plus, Search, Filter } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import TransactionList from '@/components/transactions/TransactionList';
-import TransactionDialog from '@/components/transactions/TransactionDialog';
+import TransactionList from '@/components/transaction/TransactionList';
+import TransactionDialog from '@/components/transaction/TransactionDialog';
 import { getTransactions } from '@/lib/storage';
 
 const TransactionsView = () => {

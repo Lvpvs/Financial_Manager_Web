@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Plus } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import CategoryCard from '@/components/categories/CategoryCard';
-import CategoryDialog from '@/components/categories/CategoryDialog';
+import CategoryDialog from '@/components/categories/CateggoryDialog';
 import { getCategories } from '@/lib/storage';
 
 const CategoriesView = () => {

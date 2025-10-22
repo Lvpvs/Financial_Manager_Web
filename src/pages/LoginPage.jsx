@@ -50,7 +50,7 @@ const LoginPage = ({ onLogin }) => {
       if (success) {
         toast({
           title: "Connexion réussie !",
-          description: "Bienvenue sur FinTrack"
+          description: "Bienvenue sur Financial Manager By Lvpvs"
         });
         onLogin();
       } else {
@@ -81,7 +81,7 @@ const LoginPage = ({ onLogin }) => {
             >
               <Lock className="w-8 h-8 text-white" />
             </motion.div>
-            <h1 className="text-3xl font-bold text-gray-900">FinTrack</h1>
+            <h1 className="text-3xl font-bold text-gray-900">Financial Manager By Lvpvs</h1>
             <p className="text-gray-600">Gestion financière personnelle</p>
           </div>
 

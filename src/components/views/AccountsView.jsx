@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Plus } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import AccountCard from '@/components/accounts/AccountCard';
+import AccountCard from '@/components/accounts/AccontCard';
 import AccountDialog from '@/components/accounts/AccountDialog';
 import { getAccounts } from '@/lib/storage';
 

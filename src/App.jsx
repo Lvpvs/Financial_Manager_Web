@@ -38,7 +38,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>FinTrack - Gestion Financière Personnelle</title>
+        <title>Financial Manager - Gestion Financière Personnelle</title>
         <meta name="description" content="Application moderne de gestion financière personnelle pour suivre vos comptes, dépenses et revenus en toute sécurité" />
       </Helmet>
       {!isAuthenticated ? (
